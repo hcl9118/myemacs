@@ -6,6 +6,7 @@
    t)
   (package-initialize))
 
+(add-to-list 'load-path "~/.emacs.d/lisp/")
 (add-to-list 'load-path "~/.emacs.d/go-mode.el/")
 (require 'go-mode-autoloads)
 (require 'go-autocomplete)
@@ -26,3 +27,4 @@
 
 
 
+(load "TypeScript")
